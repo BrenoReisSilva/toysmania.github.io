@@ -1,0 +1,22 @@
+/* Botão */
+.botao {
+  background-color: var(--cor-verde);
+  padding: 12px 25px;
+  border-radius: 25px;
+  font: 600 1.125rem/1.35 "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+
+.botao:hover {
+  background-color: #32CD32;
+}
+
+/* Container */
+.container {
+  padding: 40px;
+  max-width: 1200px;
+  align-items: center;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
