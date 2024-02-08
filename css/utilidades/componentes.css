@@ -15,8 +15,8 @@
 .container {
   padding: 40px;
   max-width: 1200px;
-  align-items: center;
   margin: 0 auto;
   box-sizing: border-box;
+  align-items: center;
 }
 
