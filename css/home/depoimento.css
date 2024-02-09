@@ -1,0 +1,47 @@
+.depoimento {
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+
+.depoimento h2 {
+  margin-bottom: 60px;
+}
+
+.depoimento-texto {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.depoimento-texto li {
+  padding: 24px;
+  border-radius: 10px;
+}
+
+.depoimento-texto li:nth-child(2) {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.depoimento-texto li:first-child, 
+.depoimento-texto li:last-child {
+  background-color: var(--cor-verde);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.depoimento-texto li p {
+  margin-bottom: 12px;
+  max-width: 25ch;
+}
+
+.depoimento-texto li span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+@media (max-width:400px) {
+  .depoimento h2 {
+    font-size: 2.5rem;
+  }
+}

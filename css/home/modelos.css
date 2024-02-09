@@ -1,6 +1,5 @@
 .modelos {
   padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .modelos h2 {
@@ -61,6 +60,7 @@
     min-width: 250px;
   }
   .modelos {
-    padding-bottom: 60px;
+    padding-top: 60px;
   }
 }
+

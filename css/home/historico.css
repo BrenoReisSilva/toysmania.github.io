@@ -1,3 +1,7 @@
+.historico {
+  padding-top: 120px;
+}
+
 .historico-conteudo {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -26,6 +30,7 @@
 .historico-texto > p {
   font-weight: 600;  
   margin-bottom: 32px;
+  max-width: 40ch;
 }
 
 .historico-informacoes li {
