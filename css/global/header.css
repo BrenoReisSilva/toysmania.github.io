@@ -41,13 +41,16 @@
 
 @media (max-width: 1000px) {
   .header-bg {
-    background-color: var(--cor-7) ;
+    background-color: var(--cor-7);
   }
 }
 
 @media (max-width: 800px) {
   .header {
     flex-direction: column;
+  }
+  .header-menu {
+    justify-content: center;
   }
   .header-menu a {
     background-color: var(--cor-cinza-4);
@@ -57,14 +60,13 @@
   .header-menu a:hover {
     background-color: var(--cor-cinza-5);
   }
-  .header-menu a:hover::after{
+  .header-menu a:hover::after {
     width: 0;
   }
 }
 
-@media (max-width:400px) {
+@media (max-width: 400px) {
   .header-menu {
-    justify-content:center ;
+    justify-content: center;
   }
 }
-
