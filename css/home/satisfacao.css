@@ -55,8 +55,6 @@
 }
 
 .satisfacao-texto span img{
-  width: 32px;
-  height: 32px;
   opacity: 0.4;
 }
 
@@ -82,8 +80,11 @@
   }
 }
 
-@media(max-width:400px) {
+@media(max-width:470px) {
   .satisfacao-texto{
     grid-template-columns: 1fr;
+  }
+  .satisfacao-texto p {
+    gap: 20px;
   }
 }
